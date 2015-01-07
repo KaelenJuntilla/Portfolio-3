@@ -8,4 +8,12 @@
 $("document").ready(function(){
     $(".yeah").css("background-color", "yellow");
     
+    $('p:last').css({"background-color": "purple", "color": "white"});
+    
+    $('#sibling').bind('click', alertButtonClick);
+    
 });
+
+function alertButtonClick() {
+    alert("There was a button clicked");
+}
