@@ -12,8 +12,18 @@ $("document").ready(function(){
     
     $('#sibling').bind('click', alertButtonClick);
     
+    $('#replaceWHtml').bind('click', replaceWHtml);
+    
+    $('#replaceWText').bind('click', replaceWText);
+    
+    
 });
 
 function alertButtonClick() {
     alert("There was a button clicked");
 }
+
+function replaceWHtml() {
+    $('#h3tag').html('<h6>Now I\'m an h6<h6>');
+}
+
