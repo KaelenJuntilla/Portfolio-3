@@ -12,9 +12,10 @@ $("document").ready(function(){
     
     $('#sibling').bind('click', alertButtonClick);
     
-    $('#replaceWHtml').bind('click', replaceWHtml);
+    $("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     
-    $('#replaceWText').bind('click', replaceWText);
+    $('h1').bind('click', mouseClick);
+    
     
     
 });
@@ -23,7 +24,15 @@ function alertButtonClick() {
     alert("There was a button clicked");
 }
 
-function replaceWHtml() {
-    $('#h3tag').html('<h6>Now I\'m an h6<h6>');
+function mouseOverMe() {
+    $("h1").html('This is easy');
+}
+
+function mouseOutMe() {
+    $('h1').html('Nathan Sucks');
+}
+
+function mouseClick() {
+    $('p').html('iusdhfiuhiudhfihwieuhfweiufhwiuefhiuwhfiuhuiehfiuwefh');
 }
 
