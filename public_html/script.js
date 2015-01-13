@@ -16,6 +16,16 @@ $("document").ready(function(){
     
     $('h1').bind('click', mouseClick);
     
+    $('#replaceWText').bind('click', replaceWText);
+    
+    $('#randPara'). bind('click', addPara);
+    
+    $('#toggleText').bind('click', toggleTheText);
+    
+    
+    
+    
+    
     
     
 });
@@ -29,10 +39,34 @@ function mouseOverMe() {
 }
 
 function mouseOutMe() {
-    $('h1').html('Nathan Sucks');
+    $('h1').html('I dont know what to do');
 }
 
 function mouseClick() {
     $('p').html('iusdhfiuhiudhfihwieuhfweiufhwiuefhiuwhfiuhuiehfiuwefh');
 }
+
+function replaceWText() {
+    $('#replaceWText').text('Replaced');
+}
+
+function addPara() {
+    $('#randPara').append('<p>ADDED<p>');
+}
+
+
+function slideTheImage() {
+    $('second').slideUp(2500);
+}
+
+function unslideTheImage() {
+    $('second').slideDown(2500);
+}
+
+function toggleTheText() {
+    $('h4').toggle(2500);
+}
+
+
+
 
