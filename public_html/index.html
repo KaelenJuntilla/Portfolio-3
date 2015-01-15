@@ -6,49 +6,140 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        
-        <style>
-            
-            h4 {
-                background-color:DarkSlateGrey;
-                color:white;
-                padding:10px;
-            }
-            
-            div{
-                background-color:cyan;
-                width:200px;
-                overflow:hidden
-            }
-            
-        </style>
-        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-    </head>
-    
+    <title>Kaelen Juntilla's portfolio 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+</head>
     <body>
-        <div class="yeah">
-            <h1>3rd Video something</h1>
-            <h4>Message 1</h4>
-            <h4 style="display: none">You found the secret message</h4>
-            <p id="replaceWText">No Daniel make your own</p>
-            <p id="sibling">Sibling</p>
-            <p id="randPara">Replace with Html</p>
-            <p id="removeAPara">How is this happening</p>
-            <p>What is there to do today</p>
-            <p id="second">Waiting for Event</p>
-            <p id="third">Waiting for Change</p>
-            <p>This will do something</p>
-            <button type="button" id="toggleText">toggle the Text</button>
-            
-            
-        </div>
         
-        <script type="text/javascript" src="script.js"></script>
-    </body>
+        <!--here I used the justified nav bar form bootstrap,this is on all my pages-->
+        <div class="container">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              </ul>
+                <ul class="nav nav-pills nav-justified">
+                    <li><a href="projects.html" >Projects</a></li>
+                        <li><a href="index.html">About me</a></li>
+                            <li><a href="technologies.html">Technologies</a>
+                                    </ul>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Dropdown <span class="caret"></span>
+                </a>
+                    <ul class="dropdown-menu" role="menu">
+                        
+    </ul>
+        </li>  
+            </ul>
+
+
+
+
+<!--here is my jumbotron on my about me page-->
+
+<div class="jumbotron">
+    <h1>Hello, world!</h1>
+    <p>This is Kaelen Juntilla's website,here you will see things about me and
+    what I like</p>
+        <p><a class="btn btn-primary btn-lg" role="button">About Me</a></p>
+        </div>
+            </div>
+                
+
+<!--here is my carousel on my about me page-->
+    <p><div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+         </ol>
+<!--here is the code to my carousel-->
+    <!--Wrapper for slides-->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="car1" src="http://www.digitaltrends.com/wp-content/uploads/2013/07/MLG-logo.jpg">
+                    <div class="carousel-caption">
+                        
+         </div>
+          </div>
+    
+       <div class="item">
+           <img src="http://wac.450f.edgecastcdn.net/80450F/arcadesushi.com/files/2014/03/Assassins-Creed-Series.jpg">
+            <div class="carousel-caption">
+                
+        </div>
+        </div>
+                   
+        </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+                </div>
+                       
+
+  
+        <div class="col-xs-12">
+            Here is a carousel of what is like.These pictures
+            have things like airsofting, games and many more.
+            I like to play soccer,pc games and airsoft.
+            Airsoft is a hobby where you shoot people with
+            bb guns instead of paintball guns.It is as popular
+            as paintball.The pc games I play is basically all
+            of them,many of different genres.From strategy,fps,
+            3rd person and many others.
+            </div>
+    
+    <div class="col-xs-12">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          My favorite things
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        On my alone time when I finish all my homework I like to play video games
+        or watch youtube. Most of the time I play video games but with work
+        and school getting in the way my time to play is decreased.
+      </div>
+    </div>
+      
+      
+
+            <script type="text/javascript" src="script.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
+</div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          My Favorite Foods
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        The type of foods I like is Italian,Mexican,American,Japanese, and Chinese.
+        From Italian I like pasta,Mexican I like enchiladas.American I like Ribs.
+        Japanese this dish is called Udon.Last but not least Chinese is this
+        dish called wonton noodle soup.
+      </div>
