@@ -6,69 +6,11 @@
 
 
 $("document").ready(function(){
-    $("#yeah").css("background-color", "cyan");
+   $('#toggleText').bind('click', toggleTheText);
     
-    $('p:last').css({"background-color": "purple", "color": "white"});
-    
-    $('#sibling').bind('click', alertButtonClick);
-    
-    $("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-    
-    $('h1').bind('click', mouseClick);
-    
-    $('#replaceWText').bind('click', replaceWText);
-    
-    $('#randPara'). bind('click', addPara);
-    
-    $('#toggleText').bind('click', toggleTheText);
-    
-    $("#yeah").accordion({ header: "h4"});
-    
-    
-    
-    
-    
-    
-    
+   
 });
 
-function alertButtonClick() {
-    alert("There was a button clicked");
+function toggleTheText () {
+    $('p').toggle(2500);
 }
-
-function mouseOverMe() {
-    $("h1").html('This is easy');
-}
-
-function mouseOutMe() {
-    $('h1').html('I dont know what to do');
-}
-
-function mouseClick() {
-    $('p').html('iusdhfiuhiudhfihwieuhfweiufhwiuefhiuwhfiuhuiehfiuwefh');
-}
-
-function replaceWText() {
-    $('#replaceWText').text('Replaced');
-}
-
-function addPara() {
-    $('#randPara').append('<p>ADDED<p>');
-}
-
-
-function slideTheImage() {
-    $('second').slideUp(2500);
-}
-
-function unslideTheImage() {
-    $('second').slideDown(2500);
-}
-
-function toggleTheText() {
-    $('h4').toggle(2500);
-}
-
-
-
-
