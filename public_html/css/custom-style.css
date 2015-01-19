@@ -21,13 +21,32 @@ div{
 img {
     width: 300px;
     height: auto;
+}
     
-    .car1{
+    .car1 {
+        
         width: 500px;
         height:1000px;
         margin-left: 100px;
-        
-        
+    }
+    
+    .bodyP {
+        background-color:grey;
+    }
+    
+    .bodyI {
+        background-image: url('http://pspfitness.com/wp-content/uploads/2014/02/carbon-fiber-png-1796267.png')
+            
+    }
+    
+    .bodyI {
+        color:graytext
+    }
+    
+    
+    
+  
+    
         
         
         
