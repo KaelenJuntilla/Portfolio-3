@@ -50,9 +50,25 @@ img {
     }
     
     .jumbotron {
+        text-align: center;
+        font-size:  46px;
+        background-image: url('http://www.bangertersheppard.com/images/los-angeles.jpg');
+        background-size: cover;
+        height: 360px;
+        width: auto;
         font-style: oblique;
         color:black;
     }
+    
+    .bodyT {
+        background-size: auto;
+        font-style: oblique;
+        font-size: 20px;
+        color:cyan;
+        background-image: url('http://www.bangertersheppard.com/images/los-angeles.jpg')
+    }
+    
+
     
     
     
