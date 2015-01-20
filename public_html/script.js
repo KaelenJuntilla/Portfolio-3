@@ -7,6 +7,7 @@
 
 $("document").ready(function(){
    $('#toggleText').bind('click', toggleTheText);
+   
     
    
 });
@@ -14,3 +15,4 @@ $("document").ready(function(){
 function toggleTheText () {
     $('p').toggle(2500);
 }
+

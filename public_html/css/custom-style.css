@@ -31,16 +31,27 @@ img {
     }
     
     .bodyP {
-        background-color:grey;
+        font-style: oblique;
+        font-size: 20px;
+        background-image: url('http://www.bangertersheppard.com/images/los-angeles.jpg')
     }
+   
     
     .bodyI {
-        background-image: url('http://pspfitness.com/wp-content/uploads/2014/02/carbon-fiber-png-1796267.png')
-            
+        font-style: oblique;
+        font-size: 20px;
+        color:cyan;
+        background-image: url('http://fc02.deviantart.net/fs70/f/2010/049/1/d/Basic_Stripes_by_byprozac.png')
+    }
+   
+    
+    .Pills {
+        color: cyan;
     }
     
-    .bodyI {
-        color:graytext
+    .jumbotron {
+        font-style: oblique;
+        color:black;
     }
     
     
