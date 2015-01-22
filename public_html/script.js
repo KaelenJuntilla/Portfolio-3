@@ -6,15 +6,15 @@
 
 
 $("document").ready(function(){
-   $("#yeah").css("background-color", "cyan");
+    $("#yeah").css("background-color", "cyan");
     
     $('#last').css({"background-color": "purple", "color": "white"});
     
     $('#sibling').bind('click', alertButtonClick);
     
-    $("#heading1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+    $("heading1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     
-    $('#heading4').bind('click', mouseClick);
+    $('heading1').bind('click', mouseClick);
     
     $('#replaceWText').bind('click', replaceWText);
     
@@ -22,10 +22,14 @@ $("document").ready(function(){
     
     $('#toggleText').bind('click', toggleTheText);
     
-    $("#yeah").accordion({ header: "h4"});
-   
+    $("#yeah").accordion({ header: "heading4"});
     
-   
+    
+    
+    
+    
+    
+    
 });
 
 function alertButtonClick() {
@@ -33,11 +37,11 @@ function alertButtonClick() {
 }
 
 function mouseOverMe() {
-    $("#heading1").html('This is easy');
+    $("heading1").html('This is easy');
 }
 
 function mouseOutMe() {
-    $('#heading1').html('I dont know what to do');
+    $('heading1').html('I dont know what to do');
 }
 
 function mouseClick() {
@@ -62,7 +66,7 @@ function unslideTheImage() {
 }
 
 function toggleTheText() {
-    $('#heading4').toggle(2500);
+    $('heading4').toggle(2500);
 }
 
 

@@ -17,7 +17,8 @@ div{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-    
+ /* here this line of code adjust all the pictures so that they fit on the page
+ correctly without being to big or too small*/   
 img {
     width: 300px;
     height: auto;
@@ -29,7 +30,8 @@ img {
         height:1000px;
         margin-left: 100px;
     }
-    
+    /* this is the class for my Projects page that adjust the font style,font size
+    and color of the text, also added a background*/
     .bodyP {
         font-style: oblique;
         font-size: 20px;
@@ -37,7 +39,8 @@ img {
         background-image: url('http://www.bangertersheppard.com/images/los-angeles.jpg')
     }
    
-    
+    /* this is the class for my Index page that adjust the font style,font size
+    and color of the text, also added a background*/
     .bodyI {
         font-style: oblique;
         font-size: 20px;
@@ -45,11 +48,13 @@ img {
         background-image: url('http://fc02.deviantart.net/fs70/f/2010/049/1/d/Basic_Stripes_by_byprozac.png')
     }
    
-    
+    /* This line of code just changes the color of the pill tab which then changes
+    all of the font to the color cyan*/
     .Pills {
         color: cyan;
     }
-    
+    /*This line of code makes the jumbotron bigger and added a background
+    which then I adjusted the size and height of the image*/
     .jumbotron {
         text-align: center;
         font-size:  46px;
@@ -60,7 +65,8 @@ img {
         font-style: oblique;
         color:black;
     }
-    
+    /* this is the class for my Technologies page that adjust the font style,font size
+    and color of the text, also added a background*/
     .bodyT {
         background-size: auto;
         font-style: oblique;
@@ -68,10 +74,8 @@ img {
         color:cyan;
         background-image: url('http://www.bangertersheppard.com/images/los-angeles.jpg')
     }
+  
     
-    .bodyJ {
-        background-image: url('http://www.bangertersheppard.com/images/los-angeles.jpg')
-    }
     
 
     
