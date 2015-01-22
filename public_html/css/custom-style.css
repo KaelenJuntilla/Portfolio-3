@@ -9,7 +9,7 @@ div{
     /*here I used the color grey to color the background of my jumbotron*/
     border-color: black;
     background-color: #333333;
-    color: blue;
+    color: cyan;
 }
 
 .list-group-item {
@@ -33,6 +33,7 @@ img {
     .bodyP {
         font-style: oblique;
         font-size: 20px;
+        color:cyan;
         background-image: url('http://www.bangertersheppard.com/images/los-angeles.jpg')
     }
    
